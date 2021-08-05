@@ -1,11 +1,12 @@
 * jQuery
 预览链接：https://liyuanmeng505316314.github.io/jQuery/
 
-#实现方式#
+
+#实现方式
 
 封装了一个JQuery函数
 
-#检查#
+#检查
 
 先找到含test类的元素，再在这些元素里找到child类元素节点，给这些节点添加类
 先找到含test类的元素，给这些元素添加类名
@@ -14,7 +15,7 @@ jQuery('.test').find('.child').addClass('red').addClass('blue')
 jQuery('.test').addClass('blue')    
 (```)
 
-#心得体会#
+#心得体会
 
 //定义了一个叫jQuery的函数
 //输入选择器，然后返回能操作选择器的api
